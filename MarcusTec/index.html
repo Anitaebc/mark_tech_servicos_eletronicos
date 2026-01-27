@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mark Tech - Soluções Eletrônicas</title>
+  </head>
+
+  <body>
+    <div class="mascara-formula" onclick="cliqueiNaMask()"></div>
+
+    <div class="parte-de-cima">
+      <a href="./sobre.html">Home</a>
+      <a href="./nossoserv.html">Serviços</a>
+      <a class="fale-conosco" onclick="faleConosco()">Fale Conosco</a>
+    </div>
+
+    <div class="caixa-principal">
+      <div class="caixa-mae">
+        <img
+          class="primeira-img"
+          src="./assets/mark-tech.png"
+          alt="mark tech conserto cel e note"
+        />
+        <h2>Mark Tech - Soluções Eletrônicas</h2>
+        <p>
+          Eu sei o quanto seus dispositivos eletrônicos são essenciais no seu
+          dia a dia. Quando um computador trava, o celular quebra ou o tablet
+          fica lento, você precisa de uma solução técnica com qualidade e de
+          confiança. Na Mark Tech - Soluções Eletrônicas, unimos conhecimento
+          técnico de ponta com um atendimento personalizado. Oferecemos
+          diagnósticos precisos para garantir que você não perca tempo nem
+          dados.
+        </p>
+        <button onclick="cliqueiNoBotao()">Entre em Contato</button>
+      </div>
+
+      <div class="caixa-filha">
+        <img src="./assets/CHECK.png" alt="varios-dispositivos" />
+      </div>
+
+      <div class="caixa-video">
+        <video
+          src="./assets/WhatsApp Video 2026-01-22 at 14.06.44.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+        <div class="mascara"></div>
+      </div>
+
+      <a href="https://w.app/wjxrrt">
+        <img class="link-whats" src="./assets/whatsapp.png" alt="link whats" />
+      </a>
+    </div>
+
+    <form
+      class="formula"
+      action="https://formcarry.com/s/_EKyIwoIBTx"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <input placeholder="Seu Nome" type="text" name="nome" />
+      <input placeholder="Seu Telefone" type="tel" name="telefone" />
+      <input placeholder="Seu Email" type="email" name="email" />
+      <textarea
+        placeholder="Digite aqui qual serviço vc tem interesse e o por que?"
+        name="mensagem"
+      ></textarea>
+      <button type="submit" class="botao-enviar">Enviar</button>
+    </form>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
